@@ -3,25 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63300A119D5E0ED248E326CE /* Pods_Versi_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6665284269ADFFBA79DF072E /* Pods_Versi_app.framework */; };
+		F2020CF1244B7A9C00924DD8 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2020CF0244B7A9C00924DD8 /* SearchVC.swift */; };
+		F2020CF3244B883300924DD8 /* RoundedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2020CF2244B883200924DD8 /* RoundedBorderButton.swift */; };
+		F2020CF5244B89E900924DD8 /* RoundBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2020CF4244B89E900924DD8 /* RoundBorderTextField.swift */; };
 		F2126AE9244B711000C08FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2126AE8244B711000C08FBA /* AppDelegate.swift */; };
-		F2126AEB244B711000C08FBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2126AEA244B711000C08FBA /* ViewController.swift */; };
+		F2126AEB244B711000C08FBA /* TrendingFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2126AEA244B711000C08FBA /* TrendingFeedVC.swift */; };
 		F2126AEE244B711100C08FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2126AEC244B711100C08FBA /* Main.storyboard */; };
 		F2126AF0244B714800C08FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2126AEF244B714800C08FBA /* Assets.xcassets */; };
 		F2126AF3244B714800C08FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2126AF1244B714800C08FBA /* LaunchScreen.storyboard */; };
+		F219D443244F51AE00BEE492 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219D442244F51AE00BEE492 /* Constants.swift */; };
+		F219D445244F542500BEE492 /* Downloadservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219D444244F542500BEE492 /* Downloadservices.swift */; };
+		F2207B26244EE2DA009564B6 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2207B25244EE2DA009564B6 /* CustomTableCell.swift */; };
+		F2207B28244EEDC1009564B6 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2207B27244EEDC1009564B6 /* Repo.swift */; };
+		F22327C324520600003B1F41 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22327C224520600003B1F41 /* SearchCell.swift */; };
+		F2409D7724543B2000D687DD /* UIVieControllerEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2409D7624543B2000D687DD /* UIVieControllerEXT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C64960F4C386947F5C10786 /* Pods-Versi-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Versi-app.debug.xcconfig"; path = "Target Support Files/Pods-Versi-app/Pods-Versi-app.debug.xcconfig"; sourceTree = "<group>"; };
+		6665284269ADFFBA79DF072E /* Pods_Versi_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Versi_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7E7EE4E147331AD20E3193 /* Pods-Versi-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Versi-app.release.xcconfig"; path = "Target Support Files/Pods-Versi-app/Pods-Versi-app.release.xcconfig"; sourceTree = "<group>"; };
+		F2020CF0244B7A9C00924DD8 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		F2020CF2244B883200924DD8 /* RoundedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderButton.swift; sourceTree = "<group>"; };
+		F2020CF4244B89E900924DD8 /* RoundBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBorderTextField.swift; sourceTree = "<group>"; };
 		F2126AE5244B711000C08FBA /* Versi-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Versi-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2126AE8244B711000C08FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2126AEA244B711000C08FBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2126AEA244B711000C08FBA /* TrendingFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingFeedVC.swift; sourceTree = "<group>"; };
 		F2126AED244B711100C08FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2126AEF244B714800C08FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2126AF2244B714800C08FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2126AF4244B714800C08FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F219D442244F51AE00BEE492 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F219D444244F542500BEE492 /* Downloadservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloadservices.swift; sourceTree = "<group>"; };
+		F2207B25244EE2DA009564B6 /* CustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		F2207B27244EEDC1009564B6 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		F22327C224520600003B1F41 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		F2409D7624543B2000D687DD /* UIVieControllerEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVieControllerEXT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63300A119D5E0ED248E326CE /* Pods_Versi_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FD5FF4827883E947C4A3417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6665284269ADFFBA79DF072E /* Pods_Versi_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8CBF72C5446BB7C57C67E30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C64960F4C386947F5C10786 /* Pods-Versi-app.debug.xcconfig */,
+				BD7E7EE4E147331AD20E3193 /* Pods-Versi-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F2126ADC244B711000C08FBA = {
 			isa = PBXGroup;
 			children = (
 				F2126AE7244B711000C08FBA /* Versi-app */,
 				F2126AE6244B711000C08FBA /* Products */,
+				B8CBF72C5446BB7C57C67E30 /* Pods */,
+				6FD5FF4827883E947C4A3417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,79 @@
 		F2126AE7244B711000C08FBA /* Versi-app */ = {
 			isa = PBXGroup;
 			children = (
-				F2126AE8244B711000C08FBA /* AppDelegate.swift */,
-				F2126AEA244B711000C08FBA /* ViewController.swift */,
-				F2126AEC244B711100C08FBA /* Main.storyboard */,
-				F2126AEF244B714800C08FBA /* Assets.xcassets */,
-				F2126AF1244B714800C08FBA /* LaunchScreen.storyboard */,
+				F2409D7524543AEC00D687DD /* Extension */,
+				F219D441244F518100BEE492 /* Utility */,
+				F219D440244F515300BEE492 /* Services */,
+				F2126AFC244B726900C08FBA /* controller */,
+				F2126AFB244B726200C08FBA /* view */,
+				F2126AFA244B724200C08FBA /* model */,
+				F2126AFD244B728900C08FBA /* supporting-files */,
 				F2126AF4244B714800C08FBA /* Info.plist */,
 			);
 			path = "Versi-app";
+			sourceTree = "<group>";
+		};
+		F2126AFA244B724200C08FBA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2207B27244EEDC1009564B6 /* Repo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F2126AFB244B726200C08FBA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F2126AEC244B711100C08FBA /* Main.storyboard */,
+				F2020CF2244B883200924DD8 /* RoundedBorderButton.swift */,
+				F2020CF4244B89E900924DD8 /* RoundBorderTextField.swift */,
+				F2207B25244EE2DA009564B6 /* CustomTableCell.swift */,
+				F22327C224520600003B1F41 /* SearchCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F2126AFC244B726900C08FBA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2126AEA244B711000C08FBA /* TrendingFeedVC.swift */,
+				F2020CF0244B7A9C00924DD8 /* SearchVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F2126AFD244B728900C08FBA /* supporting-files */ = {
+			isa = PBXGroup;
+			children = (
+				F2126AE8244B711000C08FBA /* AppDelegate.swift */,
+				F2126AEF244B714800C08FBA /* Assets.xcassets */,
+				F2126AF1244B714800C08FBA /* LaunchScreen.storyboard */,
+			);
+			path = "supporting-files";
+			sourceTree = "<group>";
+		};
+		F219D440244F515300BEE492 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F219D444244F542500BEE492 /* Downloadservices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F219D441244F518100BEE492 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F219D442244F51AE00BEE492 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F2409D7524543AEC00D687DD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2409D7624543B2000D687DD /* UIVieControllerEXT.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2126AF7244B714800C08FBA /* Build configuration list for PBXNativeTarget "Versi-app" */;
 			buildPhases = (
+				5619711D029953A9B3BF5FF8 /* [CP] Check Pods Manifest.lock */,
 				F2126AE1244B711000C08FBA /* Sources */,
 				F2126AE2244B711000C08FBA /* Frameworks */,
 				F2126AE3244B711000C08FBA /* Resources */,
+				861133993E7FAB63903931FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +239,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5619711D029953A9B3BF5FF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Versi-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		861133993E7FAB63903931FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Versi-app/Pods-Versi-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Versi-app/Pods-Versi-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Versi-app/Pods-Versi-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2126AE1244B711000C08FBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2126AEB244B711000C08FBA /* ViewController.swift in Sources */,
+				F2207B28244EEDC1009564B6 /* Repo.swift in Sources */,
+				F22327C324520600003B1F41 /* SearchCell.swift in Sources */,
+				F219D445244F542500BEE492 /* Downloadservices.swift in Sources */,
+				F2020CF1244B7A9C00924DD8 /* SearchVC.swift in Sources */,
+				F2126AEB244B711000C08FBA /* TrendingFeedVC.swift in Sources */,
 				F2126AE9244B711000C08FBA /* AppDelegate.swift in Sources */,
+				F2020CF3244B883300924DD8 /* RoundedBorderButton.swift in Sources */,
+				F2020CF5244B89E900924DD8 /* RoundBorderTextField.swift in Sources */,
+				F2207B26244EE2DA009564B6 /* CustomTableCell.swift in Sources */,
+				F219D443244F51AE00BEE492 /* Constants.swift in Sources */,
+				F2409D7724543B2000D687DD /* UIVieControllerEXT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +440,7 @@
 		};
 		F2126AF8244B714800C08FBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C64960F4C386947F5C10786 /* Pods-Versi-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +458,7 @@
 		};
 		F2126AF9244B714800C08FBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7E7EE4E147331AD20E3193 /* Pods-Versi-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
